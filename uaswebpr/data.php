@@ -37,7 +37,7 @@
                                         echo "<td>".$user_data['judul']."</td>";
                                         echo "<td>".date('d/m/Y',strtotime($user_data['waktu_peminjaman']))."</td>";
                                         echo "<td>".date('d/m/Y',strtotime($user_data['waktu_kembali']))."</td>";
-                                        echo "<td><a href='edit.php?id_pinjam=$user_data[id_pinjam]'>Edit</a> | <a href='hapus.php?id_pinjam=$user_data[id_pinjam]'>Delete</a></td></tr>";
+                                        echo "<td><a href='edit.php?id_pinjam=$user_data[id_pinjam]'>Edit</a> | <a href='hapus.php?id=$user_data[id_pinjam]'>Delete</a></td></tr>";
                                         $i++;
                                     }
                                     ?>
